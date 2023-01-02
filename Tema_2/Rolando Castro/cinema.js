@@ -15,16 +15,15 @@
 //Programa principal (para comprobar el correcto funcionamiento - puede ser modificado)
 
 //Creamos la sala y la mostramos (deberia estar toda vacia)
-
 initialize(10);
 show();
 //Obtenemos los valores de algunas sugerencias
 let suggestion1 = suggest(5);
 let suggestion2 = suggest(8);
 let suggestion3 = suggest(11);
-console.log("SUGERENCIA: => " + suggestion1);
-console.log("SUGERENCIA: => " + suggestion2);
-console.log("SUGERENCIA: => " + suggestion3);
+console.log(suggestion1);
+console.log(suggestion2);
+console.log(suggestion3);
 
 //Reservamos butacas
 let reservation1 = order(6);
@@ -33,10 +32,6 @@ let reservation2 = order(8);
 show();
 let reservation3 = order(3);
 let reservation4 = order(11);
-console.log("RESERVA BUTACAS: => " + reservation1);
-console.log("RESERVA BUTACAS: => " + reservation2);
-console.log("RESERVA BUTACAS: => " + reservation3);
-console.log("RESERVA BUTACAS: => " + reservation4);
 
 //Mostramos el estado de la sala
 show();
