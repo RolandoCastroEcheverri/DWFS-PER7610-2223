@@ -1,0 +1,28 @@
+.container{
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Alegreya Sans', sans-serif;   
+    display: flex;
+    align-content: center;
+}
+
+.image{
+    border: 1px solid #333;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 80px;
+}
+
+.rigth{
+    margin: 20px;
+}
+
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+tr, th{
+    border: solid 1px black;
+}
