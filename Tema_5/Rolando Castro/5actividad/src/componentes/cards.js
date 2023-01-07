@@ -4,7 +4,7 @@ export default function Card() {
     return (
         <div class="card">
         <div class="container">
-            <img src="https://brsc.sa.edu.au/wp-content/uploads/2018/09/placeholder-profile-sq.jpg" alt="react logo" style={{ width: '400px', }}/>
+            <img src="https://brsc.sa.edu.au/wp-content/uploads/2018/09/placeholder-profile-sq.jpg" />
             <h4><b>ROLANDO CASTRO</b></h4>
             <div class="parent">
                 <div class="centered box">
